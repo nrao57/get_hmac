@@ -13,13 +13,13 @@ After, there should be a binary located in `./target/release` named `get_hmac`
 
 Run the following command
 ```
-get_hmac SECRET_KEY PATH_TO_JSON_FILE
+./target/release/get_hmac SECRET_KEY PATH_TO_JSON_FILE
 ```
 
 ## Validation
 To check the binary is built correctly, run the command
 ```
- get_hmac "testKey" "./payloads/testPayload.json"
+ ./target/release/get_hmac "testKey" "./payloads/testPayload.json"
 ```
 
 The command should result in
